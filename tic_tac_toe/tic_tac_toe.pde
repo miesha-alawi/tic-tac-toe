@@ -101,8 +101,6 @@ void nextTurn() {
   int j = Integer.parseInt(coords.split(":")[1]);
   //assign spot in board to ai
   board[i][j] = ai;
-  //remove spot from available
-  available.remove(rand);
   //switch currentplayer
   currentPlayer = human;
   }
